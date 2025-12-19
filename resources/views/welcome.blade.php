@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Project Delivery Dashboard - Laravel vs Excel</title>
+        <title>Project Delivery Dashboard</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-white dark:bg-gray-950 antialiased">
@@ -24,11 +24,7 @@
                                 <a href="{{ route('login') }}" class="text-sm font-medium text-gray-700 transition hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
                                     Log in
                                 </a>
-                                @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" class="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
-                                        Get Started
-                                    </a>
-                                @endif
+                        
                             @endauth
                         </div>
                     @endif
@@ -47,7 +43,7 @@
                         <svg class="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
-                        Replace Excel with Smart Technology
+                        Dashboard with Smart Technology
                     </div>
 
                     <h1 class="mb-6 text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:text-7xl">
@@ -75,8 +71,7 @@
         <section class="py-20 bg-white dark:bg-gray-950">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center">
-                    <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">Why Choose Laravel Over Excel?</h2>
-                    <p class="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400">Stop fighting with formulas. Let technology work for you.</p>
+                    <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">Features</h2>
                 </div>
 
                 <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -150,7 +145,7 @@
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
                     <p class="text-sm text-gray-600 dark:text-gray-400">
-                        &copy; 2024 ProjectPulse. Built with Laravel.
+                        &copy; 2025 ProjectPulse. Built with Laravel.
                     </p>
                 </div>
             </div>
